@@ -5,7 +5,7 @@ class Video {
 
     public Video(String name, String description, Integer seconds) {
         _name = name;
-        _description = description;
+        _description = description; 
         _lengthInSeconds = seconds;
     }
     public void GetVideoDetails() {
